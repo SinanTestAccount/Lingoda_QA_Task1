@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11847713000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should load to website",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.user_should_load_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3333359000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click \"JavaScript\" tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JavaScript\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.HomePageStepDefinitions.user_should_click_tab(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1055689000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should select Polymer link",
+            "match": {
+              "location": "StepDefinitions.HomePageStepDefinitions.user_should_select_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95622000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should see \"Polymer\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Polymer\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.HomePageStepDefinitions.user_should_see_page(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T18:46:09.603Z",
+        "line": 10,
+        "name": "As a user, I should able to add todo items",
+        "description": "",
+        "id": "step-2/3:-add-todo-items-and-edit;as-a-user--i-should-able-to-add-todo-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8402944000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should add two todo items",
+            "match": {
+              "location": "StepDefinitions.PloymerPageStepDefinition.user_should_add_two_todo_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8837767000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to edit second item",
+            "match": {
+              "location": "StepDefinitions.PloymerPageStepDefinition.user_should_be_able_to_edit_second_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Step-2/3: Add Todo Items and Edit",
+    "description": "",
+    "id": "step-2/3:-add-todo-items-and-edit",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/PolymerPage.feature",
+    "tags": []
+  }
+]
